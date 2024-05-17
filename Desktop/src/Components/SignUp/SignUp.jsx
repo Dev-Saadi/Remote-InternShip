@@ -6,11 +6,15 @@ const SignUp = () => {
         <div className="main">
             <div className="box">
                 <div className="inner_box">
-                    <div className="carousel">
+
+                    {/* Left Image */}
+                    <div className="left">
                         <div className='image_wrapper'>
                             <img src="/src/assets/Autumn-amico.png" alt="" />
                         </div>
                     </div>
+
+                    {/* All input details and information */}
                     <div className="form_wrap">
                         <div className="logo">
                             <img src="/src/assets/Logo.png" alt="easyclass" />
