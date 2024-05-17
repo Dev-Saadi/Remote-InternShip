@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: darkgrey;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+  max-width: 1350px;
+  height: 700px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/* .inner_box {
+  position: absolute;
+  width: 98%;
+  height: 98%;
+  top: 1%;
+  left: 1%;
+  transform: translate(-50% -50%);
+} */
+
+.form_wrap {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  top: 0;
+  right: 0;
+  background-color: #ffffff;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -12px 2px 12px 0px rgba(0, 0, 0, 0.13);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.carousel {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  height: 100%;
+  width: 53%;
+  top: 0;
+  left: 0;
+  background-color: #e0fbe2;
+}
+
+.image_wrapper img {
+  width: 400px;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 30px;
+}
+.logo img {
+  width: 80px;
+}
+
+.header {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.input_wrap p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: 5px;
+  color: #b4b4b8;
+}
+
+.input_wrap_email p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: 5px;
+  color: #b4b4b8;
+}
+
+.input_wrap_email {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.input_wrap_email input {
+  width: 500px;
+  height: 40px;
+  outline: none;
+  box-shadow: inset #abacaf 0 0 0 2px;
+  border: 0;
+  background: rgba(0, 0, 0, 0);
+  appearance: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  border-radius: 10px;
+  padding-left: 12px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+
+  line-height: 1.4;
+  color: #b0bac3;
+  font-size: 14px;
+  font-weight: 400;
+  height: 40px;
+  transition: all 0.2s ease;
+}
+.input_wrap input {
+  padding-left: 12px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  width: 500px;
+  height: 40px;
+  outline: none;
+  box-shadow: inset #abacaf 0 0 0 2px;
+  border: 0;
+  background: rgba(0, 0, 0, 0);
+  appearance: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  border-radius: 10px;
+  padding: 9px 12px;
+  line-height: 1.4;
+  color: #b0bac3;
+  font-size: 14px;
+  font-weight: 400;
+  height: 40px;
+  transition: all 0.2s ease;
+}
+
+.button button {
+  margin-top: 30px;
+  width: 500px;
+  padding: 19px 150px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #73895d;
+  border: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  transition: 0.4s ease-in;
+}
+
+.button button:hover {
+  background-color: #294111;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.login p:first-child {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.login p:nth-child(2) {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  color: #73895d;
+  margin-left: 4px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.social_links img {
+  width: 30px;
+}
+
+.Or {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #b0bac3;
+  margin-top: 15px;
+}
+
+.social_links {
+  text-align: center;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.apple {
+  margin: 0 20px;
+}
+
+@media (max-width: 850px) {
+  .box {
+    height: auto;
+    max-width: 550px;
+    overflow: hidden;
+  }
+
+  .logo {
+    position: absolute;
+    top: -28px;
+    left: 40%;
+  }
+
+  .carousel {
+    background-color: white;
+  }
+
+  .inner-box {
+    position: static;
+    transform: none;
+    width: revert;
+    height: revert;
+  }
+
+  .form_wrap {
+    position: revert;
+    width: 100%;
+    height: auto;
+  }
+  .carousel {
+    position: revert;
+    height: auto;
+    width: 100%;
+  }
+}
